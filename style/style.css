@@ -35,6 +35,16 @@ nav ul li {
     border:none;
     border-radius: 3px;
     padding:18px 34px ;
+    cursor: pointer;
+    transition: opacity 0.30s ;
+}
+.btn-primary:active {
+    color:orangered ;
+    background-color: white;
+    opacity: 100%;
+}
+.btn-primary:hover {
+    opacity: 70%;
 }
 .header {
     background-color: #FFF8F3;
