@@ -1,0 +1,266 @@
+*{
+    font-family: 'Open Sans', sans-serif; 
+    margin:0;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url(fonts/openSans-Regular.ttf);
+}
+/* navigation */
+.s {
+    color:orangered ;
+}
+nav {
+    display:flex;
+    justify-content: space-between;
+    padding: 70px 150px;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+.my__name {
+    font-weight: bold;
+    font-size: 40px;
+}
+nav ul li {
+    list-style: none;  
+    margin-right: 45px;
+}
+.btn-primary {
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border:none;
+    border-radius: 3px;
+    padding:18px 34px ;
+}
+.header {
+    background-color: #FFF8F3;
+    background-image: url(portfolio-resources/images/header_bg.png),url(portfolio-resources/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left ;
+    background-size: auto, 90px;
+    margin-left: 10px;
+}
+
+/* banner */
+.banner {
+    display: flex;
+    align-items: center;
+    margin:0px 150px;
+}
+.banner-img {
+    margin-left: 245px;
+}
+.intro-1 {
+    font-size: 45px;
+    margin-left: 5px;
+    line-height: 61px;
+    margin-bottom: 5px;
+}
+.intro-2 {
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+.intro-description {
+    font-size: 18px;
+    line-height: 30px;
+    width: 585px;
+    margin-bottom: 20px ;
+}
+.btn-contact {
+    background-color: white;
+    color:orangered ;
+    font-weight: bold;
+    border:1px solid orangered;
+    padding: 18px 34px ;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-container {
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    transition: background-color 1s;  
+}
+.about-container:hover {
+    background-color: lightgoldenrodyellow;
+}
+.section-title {
+    font-size: 35px;
+    font-weight: 700; 
+    color: #181818;
+    line-height: 48px;
+    margin:50 auto;
+}
+.my-info {
+    font-size: 18px;
+    line-height: 30px;
+    width:825px;
+    color:#757575 ;
+    margin-bottom: 30px;
+}
+.persona-info {
+    display: flex;
+    justify-content: space-around;
+}
+.info {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.value {
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px; 
+}
+.doing-title {
+    font-size: 35px;
+    font-weight: 700; 
+    color: #181818;
+    line-height: 48px;
+    margin:0 auto;
+    margin-top: 130px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.my-information {
+    width: 909px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    gap:24px;
+    
+}
+.skill-sec{
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    width:267px;
+    padding: 30px;
+    transition: color 0.30s, background-color 0.45s;
+
+}
+.skill-info {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-value {
+    width: 201px;
+    font-size: 16px;
+    color: #757575;
+}
+.skill-sec:hover {
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.15);
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+.resume-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+.ed-name {
+    color: #474747;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.ed-ins {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #757575;
+    font-size: 20px;
+}
+.ed-des {
+    color: #757575;
+    font-size: 15px;
+    width: 511px;
+}
+.ed-det {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 558px;
+
+}
+.summary {
+    font-size:35px ;
+    margin: 110px auto;
+    text-align: center;
+    
+}
+.cv-download {
+    margin-top: 50px;
+    text-align: center;
+}
+/* footer section */
+.footer {
+    display: flex;
+    margin-top: 100px;
+    background-color: #FFF8F3;
+    padding-top: 30px;
+}
+/* left wing of the footer */
+.freelancer {
+    width:500px;
+}
+.left-section {
+    margin-left: 230px;
+    margin-right:115px;
+}
+.lets-connect {
+    font-size:35px ;
+    font-weight: bold;
+    margin-bottom:20px ;
+}
+.term {
+    font-size: 16px;
+    width:526px;
+    margin-bottom: 30px;
+}
+.icons {
+    width:24px;
+    height: 24px;
+    margin-right: 24px;
+}
+.input-sec {
+    width: 431px;
+    height: 64px;
+    margin-bottom: 24px;
+    padding-left: 30px;
+    
+}
+.right-section {
+    margin-right: 230px;
+}
+.lets-massage {
+    font-size:35px ;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.massage {
+    padding-left: 30px;
+    margin-bottom: 24px;
+}
+
+
